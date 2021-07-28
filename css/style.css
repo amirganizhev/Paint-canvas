@@ -54,15 +54,10 @@ body {
 }
 
 /*Ластик*/
-.eraser {}
-
 .eraser img {
 	width: 25px;
 	height: 25px;
 }
-
-/*Очистка*/
-.clear {}
 
 /*Ширина*/
 .range {

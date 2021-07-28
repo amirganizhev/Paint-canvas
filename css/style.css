@@ -1,0 +1,73 @@
+body {
+	background-image: url(../image/background.jpg);  
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;}
+
+#paint {
+	border: 7px groove #8B4513;
+	margin: 40px;
+	background-color: white;
+	box-shadow: 6px -3px 40px 4px rgba(34, 60, 80, 0.66);
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.control-panel {
+	display: flex;
+	margin-left: 100px;
+}
+
+.control-panel p {
+	margin-right: 20px;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	bottom: 20px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.control-panel button {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	box-shadow: 6px -3px 40px 4px rgba(34, 60, 80, 0.66);
+	border: 7px groove #8B4513;
+}
+
+/*Цвет*/
+.color {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	position: relative;
+	bottom: 2px;
+}
+
+/*Карандаш*/
+.pencil img {
+	width: 25px;
+	height: 25px;
+}
+
+/*Ластик*/
+.eraser {}
+
+.eraser img {
+	width: 25px;
+	height: 25px;
+}
+
+/*Очистка*/
+.clear {}
+
+/*Ширина*/
+.range {
+	cursor: pointer;
+	position: relative;
+	bottom: 20px;
+	margin-right: 20px
+}

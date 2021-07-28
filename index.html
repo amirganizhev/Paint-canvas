@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="image/shortcut.svg" type="image/x-icon">
+	<meta name="description" content="Аналог paint онлайн"> 
+	<meta name="keywords" content="paint, паинт"> 
+	<title>Paint-canvas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<canvas id="paint" width="1200" height="700"></canvas>
+
+	<div class="control-panel">
+		<p class="tool">Инструменты:</p>
+		<input class="color" type="color" title="Выбрать цвет">
+		<button class="pencil" title="Карандаш"><img src="image/pencil.png"></button>
+		<button class="eraser" title="Ластик"><img src="image/eraser.png"></button>
+		<button class="clear" title="Очистить"><img src="image/trash.svg"></button>
+		<input class="range" type="range" min="0" max="100" step="1" value="15" title="Выбрать ширину"> 
+		<p class="range-value">15</p>
+	</div>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
